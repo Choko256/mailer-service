@@ -3,5 +3,6 @@
  * */
 
 global.Promise = require('bluebird')
+const QueueManager = require('./lib/queue')
 
-const Configuration = require('./lib/config')
+let queue = new QueueManager()

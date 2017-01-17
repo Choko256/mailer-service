@@ -5,8 +5,8 @@ redis:
   prefix: 'ms:' # Please feel free to change it to your needs. Every Redis key will be prefixed by this token.
   db: 0 # Default database
 mail:
-  smtp: smtp.gmail.com
-  port: 587
+  host: smtp.gmail.com
+  port: 465
   user: user@gmail.com
   pass: sosecretpassword
   tls: true # You can set it to false if you want but TLS encryption is recommended for privacy concerns
