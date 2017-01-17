@@ -1,0 +1,26 @@
+{
+  "name": "mailer-service",
+  "version": "1.0.0-beta.1",
+  "description": "Little NodeJS mailing service",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "js-yaml": "^3.7.0",
+    "nodemailer": "^2.7.0",
+    "redis": "^2.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "pm2 start index.js --name mailer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Choko256/mailer-service.git"
+  },
+  "author": "Michael Chacaton <chako256@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Choko256/mailer-service/issues"
+  },
+  "homepage": "https://github.com/Choko256/mailer-service#readme"
+}

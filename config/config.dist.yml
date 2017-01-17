@@ -1,0 +1,16 @@
+redis:
+  host: X.X.X.X
+  port: 6379 # Or whatever port you have chosen to run your Redis instance
+  pass: secret # Optional: use this if your Redis is protected by authentication
+  prefix: 'ms:' # Please feel free to change it to your needs. Every Redis key will be prefixed by this token.
+  db: 0 # Default database
+mail:
+  smtp: smtp.gmail.com
+  port: 587
+  user: user@gmail.com
+  pass: sosecretpassword
+  tls: true # You can set it to false if you want but TLS encryption is recommended for privacy concerns
+  
+  default:
+    from: 'Mailer Service <mailer-service@example.com>'
+    subject: 'Mailer Example Mail'
